@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>App del Clima</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body onload="obtenerCoord()">
+    <!-- <div class="container header d-flex justify-content-center align-items-center">
+        <div><form action="" onsubmit="event.preventDefault();">
+            <input type="text" id="dataInput">
+            <button>Buscar</button>
+        </form></div>
+    </div> -->
+    <div class="body">
+      <div class="cardPrincipal">
+          <div class="text-center">
+              <div id="location">Rio Cuarto</div>
+              <div id="temperature">20</div>
+              <div id="hora">hora</div>
+
+        </div>
+        <div class="containerDescription d-flex justify-content-around">
+          <div id="descripcion">cielo despejado</div>
+        </div>
+        
+        <div class="cardInfo d-flex justify-content-around">
+            <div>
+                <div>Sensación Termica</div>
+                <div id="sensacion">22</div>
+            </div>
+            <div>
+                <div>Humedad</div>
+                <div id="humedad">10</div>
+            </div>
+            <div>
+                <div>Presión</div>
+                <div id="precion">1256</div>
+            </div>
+            <div>
+                <div>Temp. max/min</div>
+                <div class="d-flex justify-content-around">
+
+                    <div id="tempMax">24</div>
+                    <div id="tempMin">11</div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer"></div>
+    <script src="main2.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

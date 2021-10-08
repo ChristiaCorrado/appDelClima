@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+
+
+
+.dayClear{
+    background-image: url(../images/clearSky.jpeg);
+    
+}
+
+.nightClear{
+    background-image: url(../images/clearNight.jpeg);
+}
+
+.dayRain{
+    background-image: url(../images/dayRain.jpg);
+}
+.nightRain{
+    background-image: url(../images/nightRain);
+}
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: lightgoldenrodyellow
+}
+
+.body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/clearSky.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardPrincipal{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255 255 255 / 66%);
+    border-radius: 1em;
+}
+
+.containerDescription{
+    width: 100%;
+}
+.cardInfo{
+    width: 100%;
+}
+
+#temperature{
+    font-weight: bold;
+    font-size: 8rem;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
